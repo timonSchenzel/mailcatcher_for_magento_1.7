@@ -1,5 +1,10 @@
 # Mailcatcher Driver For Magento 1.7
-## Configuration (app/etc/local.xml)
+## Step 1.
+copy `app/code/local/Mage/Core/Model/Email/Template.php` inside your code base.
+
+## Step 2.
+Configure your app: `app/etc/local.xml`.
+Add this example code and edit mail setting if needed.
 ```xml
 <config>
     <global>
