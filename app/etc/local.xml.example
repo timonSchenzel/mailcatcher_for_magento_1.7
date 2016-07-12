@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <email>
+            <driver>mailcatcher</driver>
+            <host>localhost</host>
+            <port>1025</port>
+        </email>
+   	</global>
+</config>
