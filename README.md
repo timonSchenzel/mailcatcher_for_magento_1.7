@@ -32,4 +32,4 @@ So send an email and go to: `http://127.0.0.1:1080`.
 ## Optional
 If you want to specify a custom smtp or http port, you can do this:<br />
 From your terminal run: `mailcatcher --smtp-port 1026 --http-port 1081`.<br />
-Now you have to set the port to `1026` inside `app/etc/local.xml` and you are able to view the email at: `http://127.0.0.1:1081`.
+Now you have specify port `1026` inside `app/etc/local.xml` and you are able to view the email at: `http://127.0.0.1:1081`.
